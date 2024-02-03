@@ -24,7 +24,7 @@ function App() {
     if (sorryIdx >= Sorries.length) {
       setSorryIdx(0);
     }
-  }, [index]);
+  }, [index, sorryIdx]);
 
   console.log(index);
 
@@ -34,7 +34,7 @@ function App() {
         <div className="flex items-center justify-center w-full flex-col ">
           <div className="gif-center flex flex-col items-center justify-center mt-10">
             <img
-              src={yes ? "src/assets/gifs/maangoi-bubu.gif" : DubuCry[index]}
+              src={yes ? "/assets/gifs/maangoi-bubu.gif" : DubuCry[index]}
               alt="dudu-crying"
               className="h-80 w-80 object-contain rounded-2xl"
             />
