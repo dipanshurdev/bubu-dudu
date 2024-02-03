@@ -26,15 +26,17 @@ function App() {
     }
   }, [index, sorryIdx]);
 
-  console.log(index);
-
   return (
     <>
       <div className="h-screen  w-full p-4">
         <div className="flex items-center justify-center w-full flex-col ">
           <div className="gif-center flex flex-col items-center justify-center mt-10">
             <img
-              src={yes ? "/assets/gifs/maangoi-bubu.gif" : DubuCry[index]}
+              src={
+                yes
+                  ? "https://c.tenor.com/gH6QB8igGn0AAAAC/tenor.gif"
+                  : DubuCry[index]
+              }
               alt="dudu-crying"
               className="h-80 w-80 object-contain rounded-2xl"
             />
