@@ -34,7 +34,8 @@ function App() {
             <img
               src={
                 yes
-                  ? "https://c.tenor.com/gH6QB8igGn0AAAAC/tenor.gif"
+                  ? // ? "https://c.tenor.com/gH6QB8igGn0AAAAC/tenor.gif"
+                    "/gifs/maangoi-bubu.gif"
                   : DubuCry[index]
               }
               alt="dudu-crying"
