@@ -34,7 +34,7 @@ function App() {
             <img
               src={
                 yes
-                  ? // ? "https://c.tenor.com/gH6QB8igGn0AAAAC/tenor.gif"
+                  ? // ? "https://c.tenor.com/gH6QB8igGn0AAAAC/tenor.gif" //Url
                     "/gifs/maangoi-bubu.gif"
                   : DubuCry[index]
               }
