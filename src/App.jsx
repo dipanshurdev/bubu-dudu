@@ -32,27 +32,18 @@ function App() {
         <div className="flex items-center justify-center w-full flex-col ">
           <div className="gif-center flex flex-col items-center justify-center mt-10">
             <img
-              src={
-                yes
-                  ? // ? "https://c.tenor.com/gH6QB8igGn0AAAAC/tenor.gif" //Url
-                    "/gifs/maangoi-bubu.gif"
-                  : DubuCry[index]
-              }
+              src={yes ? "/gifs/maangoi-bubu.gif" : DubuCry[index]}
               alt="dudu-crying"
               className="h-80 w-80 object-contain rounded-2xl"
             />
             {!yes && (
               <div className="flex flex-col justify-center items-center text-center">
-                <h1 className="mt-2 text-gray-600 font-semibold text-xl">
-                  Please mujhe chhama🙇‍♂️ kardo na 🥺🥺.
+                <big className="mt-2 text-gray-600 font-semibold text-xl">
+                  Sorry
+                </big>
+                <h1 className=" text-gray-600 font-semibold text-lg">
+                  Please forgive me🥺🥺.
                 </h1>
-                <span className=" text-gray-600 font-normal text-base">
-                  Tum hi galat sochti ho😑, aur serious ho jati ho.
-                </span>
-                <span className=" text-gray-600 font-semibold text-lg">
-                  Per Fir bhi🥺
-                </span>
-                <big className="text-gray-600 font-semibold text-lg">Sorry</big>
               </div>
             )}
           </div>
@@ -64,7 +55,7 @@ function App() {
                 id="yess"
                 style={{ fontSize: `${widthPrsnt}rem` }}
               >
-                Thik hai ji🥰
+                Aww, Yes🥰
               </button>
               <button
                 onClick={() => saidNo()}
