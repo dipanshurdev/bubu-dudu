@@ -66,6 +66,22 @@ function App() {
             </div>
           )}
         </div>
+        <footer className="w-full p-4 mt-24">
+          {yes && (
+            <div className="flex items-center justify-center">
+              <p className="text-slate-700 text-lg font-bold capitalize">
+                built by{" "}
+                <a
+                  className="text-blue-400"
+                  href="https://github.com/amanr-dev"
+                  target="_blank"
+                >
+                  Aman Rawat
+                </a>
+              </p>
+            </div>
+          )}
+        </footer>
       </div>
     </>
   );
