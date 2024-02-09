@@ -28,7 +28,7 @@ function App() {
 
   return (
     <>
-      <div className="h-screen  w-full p-4">
+      <div className="h-screen  w-full p-4 flex items-center justify-between flex-col">
         <div className="flex items-center justify-center w-full flex-col ">
           <div className="gif-center flex flex-col items-center justify-center mt-10">
             <img
@@ -76,7 +76,7 @@ function App() {
                   href="https://github.com/amanr-dev"
                   target="_blank"
                 >
-                  Aman Rawat
+                  Aman Rawat🙂
                 </a>
               </p>
             </div>
