@@ -4,6 +4,7 @@ import "./index.css";
 import { DubuCry, Sorries } from "./support";
 
 function App() {
+  // States
   const [yes, setYes] = useState(false);
   const [index, setIndex] = useState(0);
   const [sorryIdx, setSorryIdx] = useState(0);
