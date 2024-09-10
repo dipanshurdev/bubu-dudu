@@ -74,10 +74,10 @@ function App() {
                 built by{" "}
                 <a
                   className="text-blue-400"
-                  href="https://github.com/amanr-dev"
+                  href="https://github.com/dipanshurdev"
                   target="_blank"
                 >
-                  Aman Rawat🙂
+                  Dipanshu Rawat🙂
                 </a>
               </p>
             </div>
