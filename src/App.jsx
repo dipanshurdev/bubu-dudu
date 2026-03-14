@@ -6,7 +6,14 @@ import Button from "./components/Button";
 import NameInput from "./components/NameInput";
 import Celebration from "./components/Celebration";
 
-function App() {
+function App() {  const mySlides = [
+    "I'm so sorry, please forgive me 🥺",
+    "I miss our talks so much...",
+    "Sending you 1000 hugs to Indonesia! 🇮🇩",
+    "I promise to be better, please? ❤️",
+    "Last chance... say Yes? ✨"
+  ];
+                
   const [isForgiving, setIsForgiving] = useState(false);
   const [imageIndex, setImageIndex] = useState(0);
   const [sorryIndex, setSorryIndex] = useState(0);
