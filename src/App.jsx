@@ -6,7 +6,14 @@ import Button from "./components/Button";
 import NameInput from "./components/NameInput";
 import Celebration from "./components/Celebration";
 
-function App() {
+function App() {  const mySlides = [
+    "I'm so sorry, please forgive me 🥺",
+    "I miss our talks so much...",
+    "Sending you 1000 hugs to Indonesia! 🇮🇩",
+    "I promise to be better, please? ❤️",
+    "Last chance... say Yes? ✨"
+  ];
+                
   const [isForgiving, setIsForgiving] = useState(false);
   const [imageIndex, setImageIndex] = useState(0);
   const [sorryIndex, setSorryIndex] = useState(0);
@@ -59,10 +66,12 @@ function App() {
                   exit={{ opacity: 0, y: -20 }}
                 >
                   <h1 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">
-                    Sorry, {name}
+                    <p className="text-lg text-gray-600 dark:text-gray-400">{mySlides[sorryIndex % mySlides.length]}</p>
+                      , {name}
                   </h1>
                   <p className="text-lg text-gray-600 dark:text-gray-300">
-                    Please forgive me 🥺🥺
+                   <p className="text-lg text-gray-600 dark:text-gray-400"> {mySlides[sorryIndex % mySlides.length]} </p>
+                      🥺🥺
                   </p>
                 </motion.div>
               )}
@@ -94,7 +103,7 @@ function App() {
                 className="text-center"
               >
                 <h2 className="text-3xl font-bold text-sky-500  mb-4">
-                  Thank you my love,
+                 Yay! I love you so much ,
                   <span className="text-pink-500"> {name}! ❤️</span>
                 </h2>
                 <p className="text-xl text-gray-700 dark:text-gray-300">
