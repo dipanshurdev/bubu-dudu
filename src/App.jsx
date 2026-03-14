@@ -66,7 +66,8 @@ function App() {  const mySlides = [
                   exit={{ opacity: 0, y: -20 }}
                 >
                   <h1 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">
-                    please forgive me, {name}
+                    <p className="text-lg text-gray-600 dark:text-gray-400">{mySlides[sorryIndex % mySlides.length]}</p>
+                      , {name}
                   </h1>
                   <p className="text-lg text-gray-600 dark:text-gray-300">
                    <p className="text-lg text-gray-600 dark:text-gray-400"> {mySlides[sorryIndex % mySlides.length]} </p>
