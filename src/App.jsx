@@ -69,7 +69,8 @@ function App() {  const mySlides = [
                     please forgive me, {name}
                   </h1>
                   <p className="text-lg text-gray-600 dark:text-gray-300">
-                    I am so sorry I messed up every time sorry 🥺🥺
+                   <p className="text-lg text-gray-600 dark:text-gray-400"> {mySlides[sorryIndex % mySlides.length]} </p>
+                      🥺🥺
                   </p>
                 </motion.div>
               )}
