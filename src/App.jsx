@@ -59,10 +59,10 @@ function App() {
                   exit={{ opacity: 0, y: -20 }}
                 >
                   <h1 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">
-                    Sorry, {name}
+                    please forgive me, {name}
                   </h1>
                   <p className="text-lg text-gray-600 dark:text-gray-300">
-                    Please forgive me 🥺🥺
+                    I am so sorry I messed up every time sorry 🥺🥺
                   </p>
                 </motion.div>
               )}
@@ -94,7 +94,7 @@ function App() {
                 className="text-center"
               >
                 <h2 className="text-3xl font-bold text-sky-500  mb-4">
-                  Thank you my love,
+                 Yay! I love you so much ,
                   <span className="text-pink-500"> {name}! ❤️</span>
                 </h2>
                 <p className="text-xl text-gray-700 dark:text-gray-300">
